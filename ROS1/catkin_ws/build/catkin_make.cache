@@ -1,0 +1,2 @@
+messages:my_robot_bringup:my_robot_tutorials:numbers
+-DCATKIN_DEVEL_PREFIX=/media/david/6064A9F064A9C8DC/David/Research/ROS/devel -DCMAKE_INSTALL_PREFIX=/media/david/6064A9F064A9C8DC/David/Research/ROS/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/media/david/6064A9F064A9C8DC/David/Research/ROS/install
+
+Name: my_robot_bringup
+Description: Description of my_robot_bringup
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
