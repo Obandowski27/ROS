@@ -1,0 +1,29 @@
+[0.229s] Invoking command in '/home/david/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/bumperbot_ws/build/bumperbot_description -- -j4 -l4
+[3.534s] Invoked command in '/home/david/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/bumperbot_ws/build/bumperbot_description -- -j4 -l4
+[3.656s] Invoking command in '/home/david/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/bumperbot_ws/build/bumperbot_description
+[3.772s] -- Install configuration: ""
+[4.073s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes
+[4.075s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL
+[4.076s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
+[4.077s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
+[4.077s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
+[4.078s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL
+[4.079s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
+[4.080s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf
+[4.080s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro
+[4.081s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
+[4.081s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
+[4.082s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
+[4.082s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv
+[4.083s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh
+[4.083s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv
+[4.084s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash
+[4.084s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh
+[4.084s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh
+[4.085s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv
+[4.085s] -- Installing: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv
+[4.251s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description
+[4.251s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake
+[4.252s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake
+[4.252s] -- Up-to-date: /home/david/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml
+[4.314s] Invoked command in '/home/david/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/bumperbot_ws/build/bumperbot_description
