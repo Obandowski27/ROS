@@ -21,7 +21,7 @@ public:
 private:
     OnSetParametersCallbackHandle::SharedPtr param_callback_handle_;
 
-    rcl_interfaces::msg::SetParametersResult paramChangeCallback(const std::vector<rclcpp::Parameter> &parameters)
+    rcl_interfaces::msg::SetParametersResult paramChangeCallback(const std::vector<rclcpp::Parameter> & parameters)
     {
         rcl_interfaces::msg::SetParametersResult result;
         for(const auto& param : parameters)

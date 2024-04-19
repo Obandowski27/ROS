@@ -25,7 +25,7 @@ class SimpleParameter(Node):
                 self.get_logger().info("Param simple_string_param changed! New value is %s" % param.value)
                 result.successful = True
 
-        return result
+        return result 
 
 def main():
     rclpy.init()
