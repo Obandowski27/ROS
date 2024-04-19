@@ -109,3 +109,9 @@ install(
 1. When creating a launch file, make sure to add folders in the **CMakeLists.txt** file at the **install** section where different files/sources are being called in the launch file
 
 2. add all <code><exec_depend>**dependencies**</exec_depend></code> in the **package.xml** file
+
+## Special note for URDF files and SolidWorks
+
+- In order to add the Inertial information for all the robot components in the URDF file, is necessary to use the URDF converter add-in in solid works. To find information about this add-in go to the following [link](https://wiki.ros.org/sw_urdf_exporter)
+
+- This [video](https://www.youtube.com/watch?v=OSL-zqw4cXs) has a demonstration on how to use URDF in SoildWorks

@@ -7,10 +7,11 @@ from launch_ros.parameter_descriptions import ParameterValue
 from launch.substitutions import Command, LaunchConfiguration
 
 def generate_launch_description():
+    bumperbot_description_dir = get_package_share_directory("bumperbot_description")
 
     model_arg = DeclareLaunchArgument(
         name ="model",
-        default_value=os.path.join(get_package_share_directory("bumperbot_description"), "urdf", "bumperbot.urdf.xacro"),
+        default_value=os.path.join(bumperbot_description_dir, "urdf", "bumperbot.urdf.xacro"),
         description="Absolute path to robot URDF file"
     )
 
