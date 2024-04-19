@@ -81,6 +81,5 @@
         <child link="caster_rear_link"/>
         <origin rpy="0 0 0" xyz="-0.04755 0 -0.0275"/>
     </joint>
-
-
+    
 </robot>
