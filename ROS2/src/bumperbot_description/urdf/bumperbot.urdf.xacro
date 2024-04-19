@@ -4,7 +4,7 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="bumperbot">
 
     <link name="base_footprint"/>
-
+    
     <link name="base_link">
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -18,7 +18,6 @@
         <parent link="base_footprint"/>
         <child link="base_link"/>
         <origin rpy="0 0 0" xyz="0 0 0.033"/>
-
     </joint>
 
     <link name="wheel_right_link">
@@ -28,15 +27,13 @@
                 <mesh filename="package://bumperbot_description/meshes/wheel_right_link.STL"/>
             </geometry>
         </visual>
-
     </link>
 
     <joint name="wheel_right_joint" type="continuous">
         <parent link="base_link"/>
         <child link="wheel_right_link"/>
         <axis xyz="0 1 0"/>
-        <orign rpy="0 0 0" xyz="0 -0.07 0"/>
-
+        <origin rpy="0 0 0" xyz="0 -0.07 0"/>
     </joint>
 
     <link name="wheel_left_link">
@@ -46,15 +43,13 @@
                 <mesh filename="package://bumperbot_description/meshes/wheel_left_link.STL"/>
             </geometry>
         </visual>
-
     </link>
 
     <joint name="wheel_left_joint" type="continuous">
         <parent link="base_link"/>
         <child link="wheel_left_link"/>
         <axis xyz="0 1 0"/>
-        <orign rpy="0 0 0" xyz="0 0.07 0"/>
-
+        <origin rpy="0 0 0" xyz="0 0.07 0"/>
     </joint>
 
     <link name="caster_front_link">
@@ -64,14 +59,12 @@
                 <mesh filename="package://bumperbot_description/meshes/caster_front_link.STL"/>
             </geometry>
         </visual>
-
     </link>
 
     <joint name="caster_front_joint" type="fixed">
-        <parent link="base link"/>
+        <parent link="base_link"/>
         <child link="caster_front_link"/>
         <origin rpy="0 0 0" xyz="0.04755 0 -0.0275"/>
-
     </joint>
 
     <link name="caster_rear_link">
@@ -81,14 +74,13 @@
                 <mesh filename="package://bumperbot_description/meshes/caster_rear_link.STL"/>
             </geometry>
         </visual>
-
     </link>
 
     <joint name="caster_rear_joint" type="fixed">
-        <parent link="base link"/>
+        <parent link="base_link"/>
         <child link="caster_rear_link"/>
         <origin rpy="0 0 0" xyz="-0.04755 0 -0.0275"/>
-
     </joint>
-    
+
+
 </robot>
