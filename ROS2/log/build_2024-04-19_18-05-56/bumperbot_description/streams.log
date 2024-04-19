@@ -1,0 +1,50 @@
+[0.055s] Invoking command in '/media/david/David/David/Research/Github/ROS/ROS2/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/david/David/David/Research/Github/ROS/ROS2/build/bumperbot_description -- -j4 -l4
+[0.510s] Invoked command in '/media/david/David/David/Research/Github/ROS/ROS2/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/david/David/David/Research/Github/ROS/ROS2/build/bumperbot_description -- -j4 -l4
+[0.580s] Invoking command in '/media/david/David/David/Research/Github/ROS/ROS2/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /media/david/David/David/Research/Github/ROS/ROS2/build/bumperbot_description
+[0.598s] -- Install configuration: ""
+[0.600s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/meshes
+[0.604s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
+[0.608s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/meshes/Can.STL
+[0.613s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
+[0.615s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
+[0.617s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL
+[0.619s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL
+[0.627s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
+[0.627s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/models
+[0.629s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/models/ground_plane
+[0.630s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_2.sdf
+[0.633s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_3.sdf
+[0.635s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_4.sdf
+[0.638s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model.config
+[0.643s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model.sdf
+[0.643s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/models/sun
+[0.650s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_2.sdf
+[0.653s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_3.sdf
+[0.654s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_4.sdf
+[0.657s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/models/sun/model.config
+[0.660s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/models/sun/model.sdf
+[0.663s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/urdf
+[0.667s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro
+[0.670s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro
+[0.675s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_ros2_control.xacro
+[0.680s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/launch
+[0.681s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py
+[0.684s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py
+[0.686s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/rviz
+[0.690s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz
+[0.694s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
+[0.697s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
+[0.700s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
+[0.701s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv
+[0.704s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/environment/path.sh
+[0.705s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/environment/path.dsv
+[0.707s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/local_setup.bash
+[0.709s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/local_setup.sh
+[0.712s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/local_setup.zsh
+[0.716s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/local_setup.dsv
+[0.717s] -- Installing: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/package.dsv
+[0.722s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description
+[0.724s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake
+[0.725s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake
+[0.729s] -- Up-to-date: /media/david/David/David/Research/Github/ROS/ROS2/install/bumperbot_description/share/bumperbot_description/package.xml
+[0.770s] Invoked command in '/media/david/David/David/Research/Github/ROS/ROS2/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /media/david/David/David/Research/Github/ROS/ROS2/build/bumperbot_description
