@@ -1,0 +1,14 @@
+[0.043s] Invoking command in '/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples -- -j4 -l4
+[0.159s] [35m[1mConsolidate compiler generated dependencies of target simple_turtlesim_kinematics[0m
+[0.193s] [ 25%] Built target simple_subscriber
+[0.197s] [ 50%] Built target simple_parameter
+[0.216s] [ 75%] Built target simple_publisher
+[0.432s] [ 87%] [32mBuilding CXX object CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o[0m
+[3.804s] [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_turtlesim_kinematics.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.805s] [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_turtlesim_kinematics.cpp:32:60:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[K<unresolved overloaded function type>[const char [28]][m[K’ for array subscript
+[3.805s]    32 |     auto node = std::make_shared<SimpleTurtlesimKinematics>[01;31m[K[[m[K"simple_turtlesim_kinematics"];
+[3.805s]       |                                                            [01;31m[K^[m[K
+[6.657s] gmake[2]: *** [CMakeFiles/simple_turtlesim_kinematics.dir/build.make:76: CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o] Error 1
+[6.660s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/simple_turtlesim_kinematics.dir/all] Error 2
+[6.662s] gmake: *** [Makefile:146: all] Error 2
+[6.665s] Invoked command in '/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples -- -j4 -l4
