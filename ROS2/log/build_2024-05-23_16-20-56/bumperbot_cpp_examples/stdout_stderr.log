@@ -1,0 +1,4 @@
+[ 25%] Built target simple_publisher
+[ 50%] Built target simple_turtlesim_kinematics
+[ 75%] Built target simple_parameter
+gmake: *** [Makefile:146: all] Interrupt
