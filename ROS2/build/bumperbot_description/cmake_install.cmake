@@ -44,10 +44,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_description" TYPE DIRECTORY FILES
+    "/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_description/launch"
     "/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_description/meshes"
     "/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_description/models"
     "/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_description/urdf"
-    "/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_description/launch"
     "/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_description/rviz"
     )
 endif()

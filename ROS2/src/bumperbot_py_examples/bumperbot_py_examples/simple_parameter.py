@@ -5,9 +5,9 @@ from rclpy.parameter import Parameter
 
 
 class SimpleParameter(Node):
+    
     def __init__(self):
         super().__init__("simple_parameter")
-
         self.declare_parameter("simple_int_param", 28)
         self.declare_parameter("simple_string_param", "Antonio")
 
@@ -17,15 +17,17 @@ class SimpleParameter(Node):
         result = SetParametersResult()
 
         for param in params:
+
             if param.name == "simple_int_param" and param.type_ == Parameter.Type.INTEGER:
                 self.get_logger().info("Param simple_int_param changed! New value is %d" % param.value)
                 result.successful = True
 
             if param.name == "simple_string_param" and param.type_ == Parameter.Type.STRING:
                 self.get_logger().info("Param simple_string_param changed! New value is %s" % param.value)
-                result.successful = True
+                result.successful = True 
 
-        return result 
+        return result
+
 
 def main():
     rclpy.init()
@@ -35,7 +37,5 @@ def main():
     rclpy.shutdown()
 
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
-

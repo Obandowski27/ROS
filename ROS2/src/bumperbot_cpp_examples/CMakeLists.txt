@@ -30,7 +30,6 @@ install(
   DESTINATION include
 )
 
-
 install(TARGETS
   simple_publisher
   simple_subscriber
