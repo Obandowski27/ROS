@@ -1,0 +1,15 @@
+[0.078s] Invoking command in '/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples -- -j4 -l4
+[0.307s] [ 20%] Built target simple_parameter
+[0.326s] [ 40%] Built target simple_publisher
+[0.354s] [ 60%] Built target simple_turtlesim_kinematics
+[0.357s] [ 80%] Built target simple_subscriber
+[0.358s] [35m[1mConsolidate compiler generated dependencies of target simple_tf_kinematics[0m
+[0.481s] [ 90%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[4.858s] [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:[m[K In constructor ‘[01m[KSimpleTfKinematics::SimpleTfKinematics(const string&)[m[K’:
+[4.858s] [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:24:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[4.858s]    24 | [01;31m[K}[m[K
+[4.859s]       | [01;31m[K^[m[K
+[5.709s] gmake[2]: *** [CMakeFiles/simple_tf_kinematics.dir/build.make:76: CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o] Error 1
+[5.709s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/simple_tf_kinematics.dir/all] Error 2
+[5.710s] gmake: *** [Makefile:146: all] Error 2
+[5.713s] Invoked command in '/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples -- -j4 -l4
