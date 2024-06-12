@@ -1,0 +1,38 @@
+[0.065s] Invoking command in '/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples -- -j4 -l4
+[0.320s] [ 20%] Built target simple_publisher
+[0.326s] [ 60%] Built target simple_parameter
+[0.331s] [ 60%] Built target simple_subscriber
+[0.344s] [ 80%] Built target simple_turtlesim_kinematics
+[0.383s] [35m[1mConsolidate compiler generated dependencies of target simple_tf_kinematics[0m
+[0.543s] [ 90%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[8.081s] [100%] [32m[1mLinking CXX executable simple_tf_kinematics[0m
+[8.548s] [100%] Built target simple_tf_kinematics
+[8.567s] Invoked command in '/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples -- -j4 -l4
+[8.621s] Invoking command in '/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples
+[8.632s] -- Install configuration: ""
+[8.635s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/include/include
+[8.638s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+[8.639s] -- Installing: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp
+[8.641s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[8.644s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[8.649s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[8.652s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[8.658s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[8.662s] -- Installing: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics
+[8.679s] -- Set runtime path of "/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics" to ""
+[8.683s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[8.683s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[8.684s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[8.686s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[8.688s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[8.690s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[8.692s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[8.694s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[8.696s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[8.697s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[8.699s] -- Installing: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[8.705s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[8.707s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[8.710s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[8.712s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[8.717s] Invoked command in '/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples

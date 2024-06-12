@@ -1,0 +1,28 @@
+[3.053s] Invoking command in '/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_py_examples': PYTHONPATH=/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_py_examples/prefix_override:/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_py_examples/build install --record /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[3.832s] running egg_info
+[3.835s] writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[3.837s] writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[3.839s] writing entry points to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[3.840s] writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[3.842s] writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[3.854s] reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[3.860s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[3.861s] running build
+[3.861s] running build_py
+[3.864s] copying bumperbot_py_examples/simple_service_server.py -> /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[3.872s] running install
+[3.873s] running install_lib
+[3.879s] copying /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_service_server.py -> /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[3.900s] byte-compiling /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_service_server.py to simple_service_server.cpython-310.pyc
+[3.909s] running install_data
+[3.914s] running install_egg_info
+[3.918s] removing '/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[3.928s] Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info
+[3.961s] running install_scripts
+[4.055s] Installing simple_parameter script to /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[4.057s] Installing simple_publisher script to /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[4.057s] Installing simple_subscriber script to /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[4.058s] Installing simple_tf_kinematics script to /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[4.060s] Installing simple_turtlesim_kinematics script to /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[4.062s] writing list of installed files to '/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_py_examples/install.log'
+[4.143s] Invoked command in '/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_py_examples' returned '0': PYTHONPATH=/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_py_examples/prefix_override:/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_py_examples/build install --record /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data

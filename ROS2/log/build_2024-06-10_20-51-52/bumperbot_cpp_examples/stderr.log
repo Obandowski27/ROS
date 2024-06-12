@@ -1,0 +1,4 @@
+[01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_server.cpp:[m[K In member function ‘[01m[Kvoid SimpleServiceServer::serviceCallback(std::shared_ptr<bumperbot_msgs::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<bumperbot_msgs::srv::AddTwoInts_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_server.cpp:24:16:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   24 |         [01;35m[Kreq->a + req->b[m[K;
+      |         [01;35m[K~~~~~~~^~~~~~~~[m[K

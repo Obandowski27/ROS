@@ -1,0 +1,52 @@
+[0.071s] Invoking command in '/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_controller -- -j4 -l4
+[0.260s] [  0%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.298s] [100%] Built target simple_controller
+[0.978s] running egg_info
+[0.985s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.988s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.990s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[1.002s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.003s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.136s] [100%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[1.258s] Invoked command in '/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_controller -- -j4 -l4
+[1.361s] Invoking command in '/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_controller
+[1.375s] -- Install configuration: ""
+[1.380s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[1.382s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[1.384s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[1.393s] -- Installing: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.398s] -- Installing: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[1.405s] -- Installing: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.418s] -- Installing: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[1.427s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[1.430s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[1.431s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[1.535s] Listing '/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[1.546s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/include/include
+[1.549s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/include/include/bumperbot_controller
+[1.553s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[1.557s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[1.560s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/launch
+[1.564s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[1.566s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[1.568s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/config
+[1.570s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[1.574s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[1.577s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[1.580s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[1.584s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[1.590s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[1.591s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[1.591s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[1.592s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[1.604s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[1.605s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[1.605s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[1.605s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[1.611s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[1.616s] -- Installing: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[1.622s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[1.626s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[1.630s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[1.632s] -- Up-to-date: /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[1.638s] Invoked command in '/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_controller
