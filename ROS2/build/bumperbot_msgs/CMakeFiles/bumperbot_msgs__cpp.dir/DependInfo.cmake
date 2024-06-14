@@ -15,6 +15,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_cpp/bumperbot_msgs/srv/detail/add_two_ints__builder.hpp" "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp"
   "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_cpp/bumperbot_msgs/srv/detail/add_two_ints__struct.hpp" "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp"
   "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_cpp/bumperbot_msgs/srv/detail/add_two_ints__traits.hpp" "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp"
+  "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_cpp/bumperbot_msgs/srv/detail/get_transform__builder.hpp" "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp"
+  "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_cpp/bumperbot_msgs/srv/detail/get_transform__struct.hpp" "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp"
+  "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_cpp/bumperbot_msgs/srv/detail/get_transform__traits.hpp" "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp"
+  "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_cpp/bumperbot_msgs/srv/get_transform.hpp" "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_cpp/bumperbot_msgs/srv/add_two_ints.hpp"
   )
 
 

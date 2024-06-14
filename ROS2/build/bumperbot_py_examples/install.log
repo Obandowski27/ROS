@@ -1,5 +1,6 @@
 /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_parameter.py
 /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_publisher.py
+/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_service_client.py
 /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_service_server.py
 /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_subscriber.py
 /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_tf_kinematics.py
@@ -7,6 +8,7 @@
 /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/__init__.py
 /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/__pycache__/simple_parameter.cpython-310.pyc
 /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/__pycache__/simple_publisher.cpython-310.pyc
+/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/__pycache__/simple_service_client.cpython-310.pyc
 /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/__pycache__/simple_service_server.cpython-310.pyc
 /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/__pycache__/simple_subscriber.cpython-310.pyc
 /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/__pycache__/simple_tf_kinematics.cpython-310.pyc
@@ -23,6 +25,7 @@
 /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info/zip-safe
 /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/bumperbot_py_examples/simple_parameter
 /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/bumperbot_py_examples/simple_publisher
+/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/bumperbot_py_examples/simple_service_client
 /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/bumperbot_py_examples/simple_service_server
 /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/bumperbot_py_examples/simple_subscriber
 /media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_py_examples/lib/bumperbot_py_examples/simple_tf_kinematics

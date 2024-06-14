@@ -17,6 +17,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/srv/__init__.py" "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints.py" "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints_s.c" "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/srv/_get_transform.py" "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/srv/_get_transform_s.c" "/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

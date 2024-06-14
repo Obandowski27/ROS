@@ -1,0 +1,173 @@
+[0.048s] Invoking command in '/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples -- -j4 -l4
+[0.313s] [ 14%] Built target simple_subscriber
+[0.339s] [ 28%] Built target simple_publisher
+[0.355s] [ 50%] Built target simple_turtlesim_kinematics
+[0.359s] [ 57%] Built target simple_parameter
+[0.427s] [35m[1mConsolidate compiler generated dependencies of target simple_service_client[0m
+[0.530s] [ 71%] Built target simple_service_server
+[0.532s] [ 85%] Built target simple_tf_kinematics
+[0.610s] [ 92%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[4.644s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.646s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.647s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.648s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.648s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.650s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.650s]                  from [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_client.cpp:1[m[K:
+[4.651s] [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_client.cpp:[m[K In member function ‘[01m[Kvoid SimpleServiceClient::responseCallback(rclcpp::Client<bumperbot_msgs::srv::AddTwoInts>::SharedFuture)[m[K’:
+[4.651s] [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_client.cpp:41:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kfuture[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::future[m[K’?
+[4.652s]    41 | et_logger(), "Service response" << [01;31m[Kfuture[m[K.get()->sum);
+[4.652s]       |                                    [01;31m[K^~~~~~[m[K
+[4.653s] 
+[4.653s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[4.654s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.654s]                  from [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_client.cpp:1[m[K:
+[4.655s] [01m[K/usr/include/c++/11/future:124:11:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::future[m[K’ declared here
+[4.655s]   124 |     class [01;36m[Kfuture[m[K;
+[4.656s]       |           [01;36m[K^~~~~~[m[K
+[4.656s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.657s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.658s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.659s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.660s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.661s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.662s]                  from [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_client.cpp:1[m[K:
+[4.662s] [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.663s] [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_client.cpp:54:40:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[4.663s]    54 |     RCLCPP_ERROR([01;31m[Krclcpp::get_logger("rclcpp", "Wrong number of arguments! Usage: simple_service_client A B")[m[K);
+[4.664s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.664s] 
+[4.665s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[4.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.670s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.670s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.671s]                  from [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_client.cpp:1[m[K:
+[4.671s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.672s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[4.672s]       |                 [01;36m[K^~~~~~[m[K
+[4.673s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.673s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.674s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.674s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.675s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.676s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.676s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.677s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.677s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.678s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.678s]                  from [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_client.cpp:1[m[K:
+[4.679s] [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_client.cpp:54:40:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[4.679s]    54 |     RCLCPP_ERROR([01;31m[Krclcpp::get_logger("rclcpp", "Wrong number of arguments! Usage: simple_service_client A B")[m[K);
+[4.680s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.680s] 
+[4.681s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[4.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.682s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.683s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.683s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.686s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.686s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.687s]                  from [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_client.cpp:1[m[K:
+[4.688s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.688s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[4.689s]       |                 [01;36m[K^~~~~~[m[K
+[4.690s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.690s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.690s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.691s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.691s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.693s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.696s]                  from [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_client.cpp:1[m[K:
+[4.697s] [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_client.cpp:54:40:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[4.697s]    54 |     RCLCPP_ERROR([01;31m[Krclcpp::get_logger("rclcpp", "Wrong number of arguments! Usage: simple_service_client A B")[m[K);
+[4.697s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.698s] 
+[4.698s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[4.698s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.699s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.699s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.699s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.700s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.700s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.700s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.700s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.701s]                  from [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_client.cpp:1[m[K:
+[4.702s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.702s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[4.703s]       |                 [01;36m[K^~~~~~[m[K
+[4.704s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.704s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.705s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.705s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.706s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.706s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.707s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.707s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.708s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.708s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.710s]                  from [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_client.cpp:1[m[K:
+[4.714s] [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_client.cpp:54:40:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+[4.715s]    54 |     RCLCPP_ERROR([01;31m[Krclcpp::get_logger("rclcpp", "Wrong number of arguments! Usage: simple_service_client A B")[m[K);
+[4.715s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.715s] 
+[4.716s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[4.716s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.716s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.717s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.717s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.717s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.718s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.718s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.718s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.718s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.719s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.719s]                  from [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_client.cpp:1[m[K:
+[4.719s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.720s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[4.720s]       |                 [01;36m[K^~~~~~[m[K
+[4.720s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.721s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.721s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.721s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.722s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.722s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.723s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.723s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.724s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.724s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.725s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.725s]                  from [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_client.cpp:1[m[K:
+[4.725s] [01m[K/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_cpp_examples/src/simple_service_client.cpp:54:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[4.726s]    54 |         [01;31m[KRCLCPP_ERROR[m[K(rclcpp::get_logger("rclcpp", "Wrong number of arguments! Usage: simple_service_client A B"));
+[4.726s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[5.531s] gmake[2]: *** [CMakeFiles/simple_service_client.dir/build.make:76: CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o] Error 1
+[5.532s] gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/simple_service_client.dir/all] Error 2
+[5.532s] gmake: *** [Makefile:146: all] Error 2
+[5.535s] Invoked command in '/media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples' returned '2': AMENT_PREFIX_PATH=/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/david/Storage/David/Research/Github/ROS/ROS2/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /media/david/Storage/David/Research/Github/ROS/ROS2/build/bumperbot_cpp_examples -- -j4 -l4

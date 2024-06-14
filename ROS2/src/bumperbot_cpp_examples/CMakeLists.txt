@@ -29,10 +29,13 @@ add_executable(simple_turtlesim_kinematics src/simple_turtlesim_kinematics.cpp)
 ament_target_dependencies(simple_turtlesim_kinematics rclcpp turtlesim)
 
 add_executable(simple_tf_kinematics src/simple_tf_kinematics.cpp)
-ament_target_dependencies(simple_tf_kinematics rclcpp tf2_ros geometry_msgs)
+ament_target_dependencies(simple_tf_kinematics rclcpp tf2_ros geometry_msgs bumperbot_msgs)
 
 add_executable(simple_service_server src/simple_service_server.cpp)
 ament_target_dependencies(simple_service_server rclcpp bumperbot_msgs)
+
+add_executable(simple_service_client src/simple_service_client.cpp)
+ament_target_dependencies(simple_service_client rclcpp bumperbot_msgs)
 
 install(
   DIRECTORY include
@@ -46,6 +49,7 @@ install(TARGETS
   simple_turtlesim_kinematics
   simple_tf_kinematics
   simple_service_server
+  simple_service_client
   DESTINATION lib/${PROJECT_NAME}
 )
 
