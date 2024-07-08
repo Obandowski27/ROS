@@ -1,7 +1,0 @@
-{
-  "package_name": "bumperbot_msgs",
-  "non_idl_tuples": [
-    "/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_msgs:srv/AddTwoInts.srv",
-    "/media/david/Storage/David/Research/Github/ROS/ROS2/src/bumperbot_msgs:srv/GetTransform.srv"
-  ]
-}
