@@ -30,7 +30,7 @@ def generate_launch_description():
     wheel_separation = LaunchConfiguration("wheel_separation")
 
     joint_state_broadcaster_spawner = Node(
-        package="controller_manager",z
+        package="controller_manager",
         executable="spawner",
         arguments=[
             "joint_state_broadcaster",

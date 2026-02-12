@@ -1,12 +1,15 @@
 #include <rclcpp/rclcpp.hpp>
-#include <bumperbot_msgs/srv/add_two_ints.hpp>
+#include "bumperbot_msgs/srv/add_two_ints.hpp"
 
-#include<chrono>
+#include <chrono>
+#include <memory>
+
 
 using namespace std::chrono_literals;
 using std::placeholders::_1;
 
-class SimpleServiceClient : public rclcpp::Node
+
+class SimpleServiceClient : public rclcpp::Node 
 {
 public:
     SimpleServiceClient(int a, int b) : Node("simple_service_client")
@@ -17,47 +20,46 @@ public:
         request->a = a;
         request->b = b;
 
-        while(!client_->wait_for_service(1s))
-        {
-            if(!rclcpp::ok())
+        while (!client_->wait_for_service(1s)) {
+            if (!rclcpp::ok()) 
             {
-                RCLCPP_ERROR(get_logger(), "Interruputed while waiting for the service");
+                RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service. Exiting.");
                 return;
             }
-            RCLCPP_INFO(get_logger(), "Service not available, waiting again...");
+            RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "service not available, waiting again...");
         }
 
         auto result = client_->async_send_request(request, std::bind(&SimpleServiceClient::responseCallback, this, _1));
-        
     }
 
 private:
     rclcpp::Client<bumperbot_msgs::srv::AddTwoInts>::SharedPtr client_;
 
-    void responseCallback(rclcpp::Client<bumperbot_msgs::srv::AddTwoInts>::SharedFuture future_)
+    void responseCallback(rclcpp::Client<bumperbot_msgs::srv::AddTwoInts>::SharedFuture future)
     {
-        if(future_.valid())
+        if(future.valid())
         {
-            RCLCPP_INFO_STREAM(get_logger(), "Service response: " << future_.get()->sum);
+            RCLCPP_INFO_STREAM(rclcpp::get_logger("rclcpp"), "Service Response " << future.get()->sum);
         }
-        else{
-            RCLCPP_ERROR(get_logger(), "Service Failure");
+        else
+        {
+            RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Service Failure");
         }
     }
-
 };
+
 
 int main(int argc, char* argv[])
 {
-    rclcpp::init(argc, argv);
-    if(argc != 3)
-    {
-        RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Wrong number of arguments! Usage: simple_service_client A B");
-        return 1;
-    }    
+  rclcpp::init(argc, argv);
 
-    auto node = std::make_shared<SimpleServiceClient>(atoi(argv[1]), atoi(argv[2]));
-    rclcpp::spin(node);
-    rclcpp::shutdown();
-    return 0;
+  if (argc != 3) {
+    RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Wrong number of arguments! Usage: simple_service_client A B");
+    return 1;
+  }
+
+  auto node = std::make_shared<SimpleServiceClient>(atoi(argv[1]), atoi(argv[2]));
+  rclcpp::spin(node);
+  rclcpp::shutdown();
+  return 0;
 }

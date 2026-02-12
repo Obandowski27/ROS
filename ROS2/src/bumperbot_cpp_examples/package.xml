@@ -4,7 +4,7 @@
   <name>bumperbot_cpp_examples</name>
   <version>0.0.0</version>
   <description>ROS 2 Code Examples</description>
-  <maintainer email="antonio.brandi@outlook.it">Antonio Brandi</maintainer>
+  <maintainer email="obandowskicode@gmail.com">David Obando</maintainer>
   <license>Apache 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
@@ -12,9 +12,10 @@
   <depend>std_msgs</depend>
   <depend>rcl_interfaces</depend>
   <depend>turtlesim</depend>
-  <depend>tf2_ros</depend>
-  <depend>geometry_msgs</depend>
   <depend>bumperbot_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
