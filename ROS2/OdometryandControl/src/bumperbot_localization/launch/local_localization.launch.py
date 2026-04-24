@@ -10,7 +10,7 @@ def generate_launch_description():
 
     use_python_arg = DeclareLaunchArgument(
         "use_python",
-        default_value="True",
+        default_value="False",
     )
 
     use_python = LaunchConfiguration("use_python")

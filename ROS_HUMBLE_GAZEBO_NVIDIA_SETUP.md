@@ -264,7 +264,7 @@ nvidia-smi
 xhost +local:root
 
 # Host: build image
-docker build -f DockerFile -t ros-humble-gazebo .
+docker build -f DockerFile -t ros2-bumperbot .
 
 # Host: run container
 docker run -it --rm \

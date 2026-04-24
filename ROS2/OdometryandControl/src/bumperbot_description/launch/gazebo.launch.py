@@ -5,7 +5,6 @@ from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, SetEnvironmentVariable
 from launch.substitutions import Command, LaunchConfiguration
-from launch.substitutions import PythonExpression
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 
 from launch_ros.actions import Node
@@ -19,12 +18,6 @@ def generate_launch_description():
                                         bumperbot_description, "urdf", "bumperbot.urdf.xacro"
                                         ),
                                       description="Absolute path to robot urdf file"
-    )
-
-    headless_arg = DeclareLaunchArgument(
-        name="headless",
-        default_value="false",
-        description="Run Gazebo server without GUI"
     )
 
     gazebo_resource_path = SetEnvironmentVariable(
@@ -57,11 +50,8 @@ def generate_launch_description():
                 PythonLaunchDescriptionSource([os.path.join(
                     get_package_share_directory("ros_gz_sim"), "launch"), "/gz_sim.launch.py"]),
                 launch_arguments=[
-                    ("gz_args", PythonExpression([
-                        "' -s -r -v 4 empty.sdf' if '",
-                        LaunchConfiguration("headless"),
-                        "' == 'true' else ' -r -v 4 empty.sdf'"
-                    ]))
+                    ("gz_args", [" -v 4", " -r", " empty.sdf"]
+                    )
                 ]
              )
 
@@ -77,16 +67,16 @@ def generate_launch_description():
         package="ros_gz_bridge",
         executable="parameter_bridge",
         arguments=[
+            "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock",
             "/imu@sensor_msgs/msg/Imu[gz.msgs.IMU"
         ],
         remappings=[
-            ("/imu", "/imu/out")
+            ('/imu', '/imu/out'),
         ]
     )
 
     return LaunchDescription([
         model_arg,
-        headless_arg,
         gazebo_resource_path,
         robot_state_publisher_node,
         gazebo,
