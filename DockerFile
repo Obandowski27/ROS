@@ -83,12 +83,21 @@ RUN apt-get update && apt-get install -y \
     libserial-dev \
     && rm -rf /var/lib/apt/lists/*
 
-RUN pip3 install transforms3d    
+RUN pip3 install transforms3d
+
+RUN apt-get update && apt-get install -y \
+    ros-humble-twist-mux* \
+    && rm -rf /var/lib/apt/lists/*
 
 # Set up workspace directory
 WORKDIR /ros2_ws
 
 # Copy the ROS2 directory from the repository into the container
 COPY ROS2 /ros2_ws/ROS2
+
+# Set up workspace directory - Change it depending on the course
+WORKDIR /ros2_ws/ROS2/MapandLocalization
+
+RUN /bin/bash -c "source /opt/ros/humble/setup.bash && colcon build"
 
 CMD ["/bin/bash"]
