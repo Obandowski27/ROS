@@ -88,6 +88,7 @@ RUN pip3 install transforms3d
 RUN apt-get update && apt-get install -y \
     ros-humble-twist-mux* \
     ros-humble-key-teleop \
+    ros-humble-nav2* \
     && rm -rf /var/lib/apt/lists/*
 
 # Set up workspace directory
