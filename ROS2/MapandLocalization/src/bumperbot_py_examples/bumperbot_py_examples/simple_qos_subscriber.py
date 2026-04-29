@@ -4,12 +4,12 @@ from rclpy.qos import QoSProfile, QoSReliabilityPolicy, QoSDurabilityPolicy
 from std_msgs.msg import String
 
 
-class simpleQoSPublisher(Node):
+class SimpleQoSSubscriber(Node):
 
     def __init__(self):
-        super().__init__("simple_qos_publisher")
+        super().__init__("simple_qos_subscriber")
 
-        self.qos_profile_pub = QoSProfile(depth=10)
+        self.qos_profile_sub = QoSProfile(depth=10)
 
         self.declare_parameter("reliability", "system_default")
         self.declare_parameter("durability", "system_default")
@@ -18,49 +18,42 @@ class simpleQoSPublisher(Node):
         durability = self.get_parameter("durability").get_parameter_value().string_value
 
         if reliability == "best_effort":
-            self.qos_profile_pub.reliability = QoSReliabilityPolicy.BEST_EFFORT
+            self.qos_profile_sub.reliability = QoSReliabilityPolicy.BEST_EFFORT
             self.get_logger().info("[Reliability] : Best Effort")
         elif reliability == "reliable":
-            self.qos_profile_pub.reliability = QoSReliabilityPolicy.RELIABLE
+            self.qos_profile_sub.reliability = QoSReliabilityPolicy.RELIABLE
             self.get_logger().info("[Reliability] : Reliable")
         elif reliability == "system_default":
-            self.qos_profile_pub.reliability = QoSReliabilityPolicy.SYSTEM_DEFAULT
+            self.qos_profile_sub.reliability = QoSReliabilityPolicy.SYSTEM_DEFAULT
             self.get_logger().info("[Reliability] : System Default")
         else:
             self.get_logger().error("Selected Reliability QoS: %s doesn't exist" % reliability)
             return
         
         if durability == "volatile":
-            self.qos_profile_pub.durability = QoSDurabilityPolicy.VOLATILE
+            self.qos_profile_sub.durability = QoSDurabilityPolicy.VOLATILE
             self.get_logger().info("[Durability] : Volatile")
         elif durability == "transient_local":
-            self.qos_profile_pub.durability = QoSDurabilityPolicy.TRANSIENT_LOCAL
+            self.qos_profile_sub.durability = QoSDurabilityPolicy.TRANSIENT_LOCAL
             self.get_logger().info("[Durability] : Transient Local")
         elif durability == "system_default":
-            self.qos_profile_pub.durability = QoSDurabilityPolicy.SYSTEM_DEFAULT
+            self.qos_profile_sub.durability = QoSDurabilityPolicy.SYSTEM_DEFAULT
             self.get_logger().info("[Durability] : System Default")
         else:
             self.get_logger().error("Selected Durability QoS: %s doesn't exist" % durability)
             return
 
-        self.pub_ = self.create_publisher(String, "chatter", self.qos_profile_pub)
-        self.counter_ = 0
-        self.frequency_ = 1.0
-        self.get_logger().info("Publishing at %d Hz" % self.frequency_)
-        
-        self.timer_ = self.create_timer(self.frequency_, self.timerCallback)
+        self.sub_ = self.create_subscription(String, "chatter", self.msgCallback, self.qos_profile_sub)
+        self.sub_
 
-    def timerCallback(self):
-        msg = String()
-        msg.data = "Hello ROS 2 - counter: %d" % self.counter_
-        self.pub_.publish(msg)
-        self.counter_ += 1
+    def msgCallback(self, msg):
+        self.get_logger().info("I heard: %s" % msg.data)
 
 
 def main():
     rclpy.init()
 
-    simple_qos_publisher = simpleQoSPublisher()
+    simple_qos_publisher = SimpleQoSSubscriber()
     rclpy.spin(simple_qos_publisher)
     
     simple_qos_publisher.destroy_node()
