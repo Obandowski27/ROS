@@ -84,6 +84,7 @@ RUN apt-get update && apt-get install -y \
     ros-humble-twist-mux* \
     ros-humble-key-teleop \
     ros-humble-nav2* \
+    ros-humble-nav2-rviz-plugins \
     && pip3 install transforms3d \
     && rm -rf /var/lib/apt/lists/*
 
